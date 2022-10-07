@@ -6,7 +6,7 @@
 
 body {
   height: 100vh;
-  background: white;
+  /* background: white; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,18 +14,21 @@ body {
 }
 
 .wrapper {
-  background: gray;
+  background: black;
   width: 20rem;
   padding: 2rem;
   margin-top: 4rem;
-  border-radius: 1rem;
-  box-shadow: 48px 0px 29px 33px rgba(0,0,0,0.1);
+  border-radius: 100px;
+  box-shadow: 48px 0px 29px 33px rgba(14, 12, 3, 0.1);
 }
 
 .screen {
-  height: 4rem;
-  margin: 4rem;
-
+  text-align: right;
+  color: white;
+  height: 70px;
+  line-height: 70px;
+  padding: 16px 8px;
+  font-size: 35px;
 }
 
 .buttonBox {
@@ -35,27 +38,25 @@ body {
 }
 .button {
   border: none;
-  background: black;
+  background: deeppink;
   color: white;
   height: 3.2rem;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 100px;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-font-size: 1.5rem;
+  font-size: 1.5rem;
   cursor: pointer;
-
 }
 button:hover {
   border: 2px dotted white;
   background-color: black;
-  color: grey;
-
-
+  color: whitesmoke;
 }
 .equals {
-  background: deeppink;
+  background: white;
+  color: black;
   grid-column: 3/5;
 }
 

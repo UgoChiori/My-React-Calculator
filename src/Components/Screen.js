@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { CalcuContext } from "../context/CalcuContext";
-import { Textfit } from "react-textfit";
+
 
 
 
@@ -8,7 +8,7 @@ import { Textfit } from "react-textfit";
 const Screen = () => {
     const { calc} = useContext(CalcuContext)
     return (
-        <Textfit className="screen" max={70} mode="single">{calc.num ? calc.num : calc.res}</Textfit>
+        <div className="screen" max={70} mode="single">{calc.num ? calc.num : calc.res}</div>
     )
 }
 
